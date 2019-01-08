@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lawanco.com.alfobe">
+
+    <uses-permission android:name="ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="perdmission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /><!--optional-->
+    <uses-permission android:name="android.permission.VIBRATE" /><!--optional-->
+
+
+    <application
+        android:name=".tabligh"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity
+            android:name="ir.tapsell.sdk.TapsellAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name=".ListDars">
+            <intent-filter>
+                <action android:name="android.intent.action.Dars" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MatnDars">
+            <intent-filter>
+                <action android:name="android.intent.action.MatnDars" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chalaki1">
+            <intent-filter>
+                <action android:name="android.intent.action.Chalaki1" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chalaki2">
+            <intent-filter>
+                <action android:name="android.intent.action.Chalaki2" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chalaki3">
+            <intent-filter>
+                <action android:name="android.intent.action.Chalaki3" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListFaslActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ListFaslActivity" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JayezaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.JayezaActivity" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDars2">
+            <intent-filter>
+                <action android:name="android.intent.action.ListDars2" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDars3">
+            <intent-filter>
+                <action android:name="android.intent.action.ListDars3" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDars4">
+            <intent-filter>
+                <action android:name="android.intent.action.ListDars4" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDars5">
+            <intent-filter>
+                <action android:name="android.intent.action.ListDars5" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDars6">
+            <intent-filter>
+                <action android:name="android.intent.action.ListDars6" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

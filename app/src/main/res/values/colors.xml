@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#ecd2d2</color>
+    <color name="appMainColor">#FAFAFA</color>
+    <color name="headerColor">#EEEEEE</color>
+    <color name="TextColor">#282828</color>
+    <color name="SplashScreen">#9E9E9E</color>
+    <color name="SplashSscreen">#dd0051ff</color>
+    <color name="select_shape">#e7ffdd00</color>
+</resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Chalaki3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/appMainColor"
+        android:orientation="vertical">
+
+        <!--Header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/headerColor"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@mipmap/logo" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@mipmap/menu_logo"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/menuBTN"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight=".5"
+                android:background="@mipmap/menu_logo"
+                android:visibility="invisible" />
+
+
+        </LinearLayout>
+
+        <!--aks-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/imgchalaki3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:src="@mipmap/post" />
+
+        </LinearLayout>
+
+        <!--text + btn-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:onClick="onClickbtndel" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@drawable/dars_shape"
+                android:visibility="invisible" />
+
+
+            <EditText
+                android:id="@+id/textChalaki3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="4"
+                android:enabled="false"
+                android:textColor="@color/TextColor"
+                android:fontFamily="@font/kmagroon"/>
+
+
+        </LinearLayout>
+
+        <!--radife aval-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnChalaki3_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn11"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn12"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn13"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn14"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn15"
+                android:textColor="@color/TextColor" />
+
+        </LinearLayout>
+        <!--radife aval-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/btnChalaki3_6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn16"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn17"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn18"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn19"
+                android:textColor="@color/TextColor" />
+
+            <Button
+                android:id="@+id/btnChalaki3_10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickbtn20"
+                android:textColor="@color/TextColor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/btnNextdars"
+                android:text="دەرسی "
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/dars_shape"
+                android:fontFamily="@font/irsans_l"
+                android:onClick="onClickNextDars"
+                android:textColor="@color/TextColor"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

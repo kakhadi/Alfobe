@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AlfoBe</string>
+    <string name="dars">دەرس</string>
+    <string name="jayeza">جایزه</string>
+    <string name="Peyvandi">پەیوندی</string>
+    <string name="Choonadare">چونە دەرێ</string>
+    <string name="title_activity_navigation_acticity">navigationActicity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Halbzhardnidars">تکایه ده‌رسێک هه‌لبژێره‌</string>
+    <string name="darse1">فصل اول</string>
+    <string name="dara">دارا</string>
+    <string name="chalaki">چالاکی</string>
+    <string name="bdozava">بدۆزەوە</string>
+    <string name="faslha">فصله کان</string>
+    <string name="Pro">professional</string>
+    <string name="fasliaval">فه‌سڵی ئه‌وه‌ڵ</string>
+    <string name="fasli2">فه‌سڵی دووهه‌م</string>
+    <string name="fasli3">فه‌سڵی سێهه‌م</string>
+    <string name="fasli4">فه‌سڵی چواره‌م</string>
+    <string name="fasli5">فه‌سڵی پێنجه‌م</string>
+    <string name="fasli6">فه‌سڵی شه‌شه‌م</string>
+    <string name="fasltka">تکایه فه‌سڵێک هه‌ڵبژێرن</string>
+    <string name="f1d1">ده‌رسی یه‌که‌م</string>
+    <string name="f1d2">ده‌رسی دووهه‌م</string>
+    <string name="f1d3">ده‌رسی سێهه‌م</string>
+    <string name="f1d4">ده‌رسی چواره‌م</string>
+    <string name="f1d5">ده‌رسی پێنجه‌م</string>
+    <string name="f1d6">ده‌رسی شه‌شه‌م</string>
+    <string name="f1d7">ده‌رسی حه‌وته‌م</string>
+    <string name="f1d8">ده‌رسی هه‌شته‌م</string>
+    <string name="f1d9">ده‌رسی نۆهه‌م</string>
+    <string name="f1d10">ده‌رسی ده‌هه‌م</string>
+
+</resources>
