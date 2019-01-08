@@ -5,8 +5,10 @@
     <color name="colorAccent">#ecd2d2</color>
     <color name="appMainColor">#FAFAFA</color>
     <color name="headerColor">#EEEEEE</color>
+    <color name="HeaderColor2">#00838f</color>
     <color name="TextColor">#282828</color>
-    <color name="SplashScreen">#9E9E9E</color>
+    <color name="TextColor2">#fff</color>
+    <color name="SplashScreen">#00838f</color>
     <color name="SplashSscreen">#dd0051ff</color>
     <color name="select_shape">#e7ffdd00</color>
 </resources>
