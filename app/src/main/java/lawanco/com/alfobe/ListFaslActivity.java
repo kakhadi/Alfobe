@@ -29,4 +29,9 @@ public class ListFaslActivity extends AppCompatActivity {
     public void onClickFasl6(View view){
         startActivity(new Intent(this, ListDars6.class));
     }
+    public void onClickDars(View view)
+    {
+        startActivity(new Intent(this, ListFaslActivity.class));
+    }
+
 }
