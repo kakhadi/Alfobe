@@ -16,32 +16,25 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@color/headerColor"
+            android:background="@color/HeaderColor2"
+            android:gravity="right"
             android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/irsans_b"
+                android:text="ئه‌لفوبێ"
+                android:textColor="@color/TextColor2"
+                android:textSize="30sp" />
+
             <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:id="@+id/menuBTN4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_margin="5dp"
-                android:layout_weight="2"
-                android:background="@mipmap/logo" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:background="@mipmap/menu_logo"
-                android:visibility="invisible" />
-
-            <ImageView
-                android:id="@+id/menuBTN"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:layout_weight=".5"
-                android:background="@mipmap/menu_logo"
-                android:visibility="invisible" />
-
+                android:background="@mipmap/menu_logo" />
 
         </LinearLayout>
 
