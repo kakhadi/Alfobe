@@ -16,6 +16,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        findViewById(R.id.ContactUs).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent contact = new Intent(MainActivity.this , AbutUsActivity.class);
+                startActivity(contact);
+            }
+        });
     }
     public void CopyDB(InputStream inputStream,OutputStream outputStream) throws IOException {
         //---copy 1K bytes at a time---
@@ -52,4 +60,5 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(this, ListDars.class));
     }
+
 }

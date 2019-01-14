@@ -2,7 +2,6 @@ package lawanco.com.alfobe;
 
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
@@ -92,8 +91,8 @@ public class ListDars extends AppCompatActivity {
     public void onClickdars10(View view) {
         matnDars("10");
     }
-    public void onClickDars(View view)
-    {
+
+    public void onClickDars(View view) {
         startActivity(new Intent(this, ListFaslActivity.class));
     }
 
